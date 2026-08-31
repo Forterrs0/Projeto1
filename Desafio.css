@@ -1,8 +1,10 @@
+@charset "UTF-8";
+
 @charset 'UTF-8';
 
  @font-face {
         font-family: 'idroid';
-        src: url(fontes/idroid.otf) format('opentype');
+        src: url(idroid.otf) format('opentype');
     }
 
 .curiosidade {
@@ -135,9 +137,19 @@ p {
     width: 100%;; 
 }
 
-#irina {
+#irina-pc {
     width: 96%;
     padding: 10px 0px 2px 0px;
+    display: block;
+    margin: auto;
+    
+}
+
+#irina-mobile {
+    width: 48%;
+    height: auto;
+    height: 290px;
+    padding: 20px 0px 20px 0px;
     display: block;
     margin: auto;
 }
@@ -232,4 +244,17 @@ p {
 
 #destaquefinal {
     color:#02f069c7
+}
+
+/* Quando a tela for menor ou igual a 600px */
+@media (min-width: 1200px) {
+    #irina-mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    #irina-pc {
+        display: none;
+    }
 }
