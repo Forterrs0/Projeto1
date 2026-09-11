@@ -189,19 +189,13 @@ p {
     column-gap: 40px;
     max-width: 500px;
     grid-template-columns: 1fr 1fr;
-    
 
-}
-
-abbr {
-    text-decoration-line: none;
 }
 
 
 .lista div {
     text-align: left;    
     padding: 0px 0px 0px 10px;
-    
     
 }
 
@@ -322,8 +316,7 @@ abbr {
     }
     
     #irina-mobile {
-        display: block;
-        animation: aparecer 0.5s ease;
+        display: block;        animation: aparecer 0.5s ease;
     }
 }
 
